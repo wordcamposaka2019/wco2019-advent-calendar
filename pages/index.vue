@@ -9,7 +9,7 @@
           <p>{{ item.description }}</p>
         </template>
         <template v-else>
-          <h4>{{ item.date }} {{ item.title }}</h4>
+          <h4>{{ item.date }} {{ item.title }} by {{ item.name }}</h4>
           <p>{{ item.description }}</p>
         </template>
       </div>
