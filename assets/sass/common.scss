@@ -1,0 +1,53 @@
+
+$base-color: #fff8e6;
+$base-color-deep: #ffebcc;
+$main-color: #facd89;
+$main-color-light: #ffe0b1;
+
+$sub-color: #d8836e;
+$sub-color-deep: #ba6a56;
+$body-fontcolor: #444;
+$link-color-light: #A15C4A;
+$link-color: #8C5547;
+$link-color-deep: #6E4237;
+$gray: #777673;
+$red: #FF5E5E;
+$black: rgb(0, 0, 0);
+$white: rgb(255, 255, 255);
+$ff-mplus: 'M PLUS 1p';
+$ff-base: 'Noto Sans JP';
+
+body {
+  background-color: $base-color;
+  font-size: 1rem;
+  color: $body-fontcolor;
+  font-family: $ff-base, sans-serif;
+}
+
+// Links
+a {
+  color: $link-color-light;
+}
+
+a:visited {
+  color: $link-color-light;
+}
+
+a:hover,
+a:active {
+  color: $link-color;
+}
+
+a:focus {
+  outline: thin dotted;
+  text-decoration: underline;
+}
+
+#header {
+  font-family: $ff-base;
+}
+#main {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
