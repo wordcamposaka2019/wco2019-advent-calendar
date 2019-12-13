@@ -54,6 +54,10 @@ export default {
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
+    proxy: true
+  },
+  proxy: {
+    '/api': { target: 'https://wco2019.unplat.info' }
   },
   /*
   ** Build configuration

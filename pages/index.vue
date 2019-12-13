@@ -26,7 +26,9 @@ export default {
   computed: {
   },
   async asyncData ({ app }) {
-    const items = await app.$axios.$get('https://script.google.com/macros/s/AKfycbwelLPq7f-yeMs4M7tIRVQmzO-DRojXuurJUwxsStQ3oo1VFkb3/exec')
+    app.$axios.setHeader('Access-Control-Allow-Origin', '*')
+    // const items = await app.$axios.$get('/macros/s/AKfycbwelLPq7f-yeMs4M7tIRVQmzO-DRojXuurJUwxsStQ3oo1VFkb3/exec', {
+    const items = await app.$axios.$get('/api')
     const now = moment().format('YYYYMMDD')
     for (let i = 0; i < items.length; i++) {
       items[i].visible = false
