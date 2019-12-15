@@ -4,12 +4,12 @@
       <div class="content">
         <template v-if="item.url && item.visible">
           <h4>
-            <a :href="item.url" target="_blank" rel="noopener">{{ item.date }} {{ item.title }} by {{ item.name }}</a>
+            <a :href="item.url" target="_blank" rel="noopener"><span class="date">{{ item.date }}</span> {{ item.title }} <span class="name">by {{ item.name }}</span></a>
           </h4>
           <p>{{ item.description }}</p>
         </template>
         <template v-else>
-          <h4>{{ item.date }} {{ item.title }} by {{ item.name }}</h4>
+          <h4><span class="date">{{ item.date }}</span> {{ item.title }} <span class="name">by {{ item.name }}</span></h4>
           <p>{{ item.description }}</p>
         </template>
       </div>
