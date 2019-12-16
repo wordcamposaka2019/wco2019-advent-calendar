@@ -10,7 +10,6 @@
         </template>
         <template v-else>
           <h4><span class="date">{{ item.date }}</span> {{ item.title }} <span class="name">by {{ item.name }}</span></h4>
-          <p>{{ item.description }}</p>
         </template>
       </div>
     </div>
