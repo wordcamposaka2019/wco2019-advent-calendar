@@ -49,5 +49,36 @@ a:focus {
 #main {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  padding: 0 4vw;
 }
 
+.box{
+  h4{
+    color: #d8836e;
+  }
+  .date{
+    display: block;
+    margin-bottom: 16px;
+    font-size: 0.85em;
+    color: #666;
+  }
+  .name{
+    display: block;
+    margin-top: 8px;
+    color: rgba(#d8836e,.85);
+    font-size: 0.9em;
+    text-align: right;
+  }
+}
+@media screen and (min-width: 768px){
+  #main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .box{
+    flex-basis: calc((100% - 6 * 16px) / 3);
+    min-width: 260px;
+    margin: 0 16px 32px;
+  }
+}
