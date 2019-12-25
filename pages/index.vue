@@ -53,7 +53,7 @@ export default {
   @import "../assets/sass/common";
 
   .box {
-    background-color: $base-color-deep;
+    background-color: $base-color;
   }
 
 </style>

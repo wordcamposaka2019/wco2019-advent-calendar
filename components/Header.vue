@@ -18,6 +18,6 @@ export default {
 @import "../assets/sass/common";
 
 #header {
-  background-color: $main-color;
+  background-color: $base-color-deep;
 }
 </style>
