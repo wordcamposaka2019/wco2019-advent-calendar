@@ -55,6 +55,7 @@ a:focus {
 .box{
   h4{
     color: #d8836e;
+    line-height: 1.4;
   }
   .date{
     display: block;
@@ -65,8 +66,8 @@ a:focus {
   .name{
     display: block;
     margin-top: 8px;
-    color: rgba(#d8836e,.85);
-    font-size: 0.9em;
+    color: $gray;
+    font-size: 0.8em;
     text-align: right;
   }
 }

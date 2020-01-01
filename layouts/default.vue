@@ -9,7 +9,7 @@
 <style lang="scss">
   @import "../assets/sass/common";
   body {
-    background-color: $base-color;
+    background-color: $main-color;
     font-size: 1rem;
     color: $body-fontcolor;
     font-family: $ff-base, sans-serif;
