@@ -15,7 +15,7 @@ export default {
           'WordCamp Osaka 2019の実行委員による"WordCamp Osaka 2019のつくりかた"にかんするリレーブログの案内'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   /*
    ** Customize the progress-bar color
@@ -47,7 +47,7 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
-    ['@nuxtjs/google-tag-manager', { id: 'GTM-WTKTVLL' }],
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-WTKTVLL' }]
   ],
   /*
    ** Axios module configuration
